@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+}
+:root{
+    --card:hsl(0, 0%, 100%);
+    --bg:hsl(212, 45%, 89%);
+    --small-texte:hsl(220, 15%, 55%);
+    --big-texte:hsl(218, 44%, 22%);
+}
+body{
+    background: var(--bg);
+}
+.container{
+    width: 330px;
+    height:520px;
+    background: var(--card);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+.image img{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    padding: 15px;
+    border-radius: 30px;
+}
+.pragraphe .big-texte{
+    font-size: 1.55rem;
+    color: var(--big-texte);
+    padding: 5px 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.pragraphe .small-texte{
+    font-size: 1.1rem;
+    color: var(--small-texte);
+    padding: 15px 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px;
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
